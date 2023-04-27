@@ -1,0 +1,257 @@
+body
+{
+    background-image: url(images/backgroundImage.jpeg);
+}
+
+h1, h2, h3
+{
+    color: Blue;
+}
+
+#section p
+{
+    margin-right: 50%;
+}
+
+#aside
+{
+    margin-top: -130px;
+    margin-left: 51%;
+}
+
+#aside #secondP
+{
+    margin-top: -185px;
+    float: right;
+    margin-right: 580px;
+}
+
+#aside #ThridP
+{
+    margin-top: -234px;
+    float: right;
+    margin-right: 490px;
+}
+
+.bar
+{
+    margin-top: 0px;
+    height: 180px;
+    width: 20px;
+    background-color: Blue;
+}
+
+.barTwo
+{
+    margin-top: 0px;
+    height: 150px;
+    width: 20px;
+    background-color: Blue;
+}
+
+.barThrid
+{
+    margin-top: 0px;
+    height: 200px;
+    width: 20px;
+    background-color: Blue;
+}
+
+.circle 
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #FF8C00 0%, #FF8C00 33%, #FFD700 33%, #FFD700 66%, #4CAF50 66%, #4CAF50 100%);
+}
+  
+#Revenue
+{
+    margin-top: -475px;
+    float: right;
+    margin-right: 100px;
+}
+
+#squareOrange
+{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+}
+
+#squareYellow
+{
+    width: 10px;
+    height: 10px;
+    background-color: Yellow;
+}
+
+#squareGreen
+{
+    width: 10px;
+    height: 10px;
+    background-color: Green;
+}
+
+#Cars
+{
+    margin-left: 25%;
+}
+
+#Rockets
+{
+    float: right;
+    margin-top: -265px;
+    margin-right: 25%;
+}
+
+img 
+{
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+    width: 160px;
+    margin: 10px;
+}
+  
+.image-container 
+{
+    display: flex;
+    margin-left: -200px;
+}
+
+img:hover 
+{
+    filter: grayscale(0%);
+}
+
+#Cars p
+{
+    margin-left: -190px;
+}
+
+.Rocket-container img
+{
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+    width: 150px;
+    height: 150px; 
+}
+
+.Rocket-container 
+{
+    display: flex;
+    margin-left: -200px;
+}
+
+.Rocket-container img:hover 
+{
+    filter: grayscale(0%);
+}
+
+#firstBox
+{
+    margin-right: 50%;
+}
+
+#firstBox h2
+{
+    margin-bottom: -50px;
+    margin-left: 200px;
+}
+
+#secondBox
+{
+    margin-top: 10px;
+    margin-right: 50%;
+}
+
+#secondBox h2
+{
+    margin-left: 240px;
+    margin-bottom: -50px;
+}
+
+#lastBox
+{
+    margin-top: 10px;
+    margin-right: 50%;
+}
+
+#lastBox h2
+{
+    margin-bottom: -50px;
+    margin-left: 200px;
+}
+
+#SpaceXRocket
+{
+    margin-left: 50%;
+    margin-top: -935px;
+}
+
+#SpaceXRocket h2
+{
+    margin-left: 200px;
+    margin-bottom: -50px;
+}
+
+#Falcon9
+{
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+#Falcon9 h2
+{
+    margin-left: 200px;
+    margin-bottom: -50px;
+}
+
+ul
+{
+    list-style: none;
+	display: inline;
+}
+
+.error
+{
+    color: red;
+}
+
+form#contact-form
+{
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+form#contact-form legend
+{
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+	text-shadow:0px 1px 1px #C0D576;
+}
+
+form#contact-form ul li
+{
+	background: lightblue;
+	border:2px solid #f2f3f1;
+	border-radius:5px;
+	line-height:30px;
+	list-style:none;
+	padding:5px 10px;
+	margin-bottom:2px;
+}
+
+form#contact-form input:focus,
+form#contact-form textarea:focus 
+{
+	background: #eaeaea;
+}
+
+.center
+{
+    text-align: center;
+}

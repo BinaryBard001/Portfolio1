@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formValidate.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Page</h1>
+        <dialog id="InfoError">
+        </dialog>
+    </header>
+    <form id="contact-form" action="contact.php" method="post">
+    <main>
+        <fieldset id="personalInfo">
+            <legend>Personal Information</legend>
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="name" name="name" id="name" autofocus="autofocus">
+                    <p class="personalInfo error" id="name_error">* This field is required</p>
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+1 204-671-3011">
+                    <p class="personalInfo error" id="phoneNumber_error">* This field is required</p>
+                    <p class="personalInfo error" id="phoneNumberFormat_error">* Invalid Phone Number</p>
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text" />
+                    <p class="personalInfo error" id="email_error">* This field is required</p>
+                    <p class="personalInfo error" id="emailformat_error">
+                        * Invalid email address
+                    </p>
+                </li>
+                <li>
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" name="comment" rows="5" type="comment"></textarea>
+                    <p class="personalInfo error" id="comment_error">* This field is required</p>
+                </li>
+            </ul>
+            <p class="center">
+                <button type="submit" id="submit">Submit Form</button>
+                <button type="reset" id="reset">Reset Form</button>
+            </p>
+        </fieldset>
+    </main>
+</html>
